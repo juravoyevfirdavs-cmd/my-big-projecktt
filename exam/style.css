@@ -1,0 +1,458 @@
+/* birinchi qism */
+ header{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    list-style-type: none;
+    align-items: center;
+    position: relative;
+    left: 150px;
+
+    
+}
+p{
+    color: #333333;
+    font-family: italic;
+}
+
+li{
+    font-family: 'Times New Roman', Times, serif;
+    color: #1C2A39 ;
+}
+li:hover{
+    cursor: pointer;
+    color: blue;
+    border: solid 1px rgb(5, 139, 139);
+    padding: 10px 10px;
+    border-radius: 16px;
+    background-color: rgb(5, 139, 139);
+    color: white;
+    box-shadow: 1px 2px 3px 3px aqua;
+}
+button{
+    border: solid 1px #1C2A39;
+    border-radius: 18px;
+    padding: 5px 30px;
+    align-items: center;
+    margin: 10px;
+}
+button:hover{
+    background-color:  rgb(31, 30, 30);
+    color: white;
+    cursor: pointer;
+    border-color:  rgb(31, 30, 30);
+
+}
+
+.tuve{
+    position: relative;
+    left: 300px;
+    bottom: 300px;
+}
+.like{
+    z-index: 1;
+    position: relative;
+    left: 70px;
+    top: 100px;
+}
+h1{
+    color: #1C2A39;
+    font-size: 52px;
+    font-weight: 700px;
+    text-transform: capitalize;
+
+}
+.butt{
+    position: relative;
+    right: 10px;
+    top: 10px;
+}
+/* . */
+
+
+/* ikkinchi qism */
+
+.kok{
+    background-color: #1C2A39;
+    width: 1520px;
+    height: 750px;
+    position: relative;
+    bottom: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.arroww{
+    width: 20px;
+    height: 80px;
+    position: relative;
+    top: 600px;
+    right: 720px;
+    cursor: pointer;
+}
+
+
+.kok p{
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.kok h1{
+    color: #A27758; 
+    font-family: sans-serif;
+}
+.soz{
+    padding: 80px;
+}
+.sozz{
+    margin-top: 300px;
+    position: relative;
+    right: 10px;
+}
+.sozz p{
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 10px;
+
+}
+.buttt{
+    position: relative;
+    top: 500px;
+    right: 575px;
+    
+}
+.buttt button{
+    background-color: transparent;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    padding: 10px 20px;
+
+}
+.buttt button:hover{
+    background-color: rgb(31, 30, 30);
+    border-color:  rgb(31, 30, 30);
+    color: white;
+    
+    
+}
+/* . */
+
+
+/* uchinchi qism */
+.rasmm4{
+    display: flex;
+    position: relative;
+    bottom: 220px;
+}
+.rasm1{
+    background-image: url(./ii.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 850px;
+}
+.rasm2{
+    background-image: url(./Mask\ group\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 850px;
+}.rasm3{
+    background-image: url(./Mask\ group\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 850px;
+}.rasm4{
+    background-image: url(./Mask\ group\ \(4\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 850px;
+}
+
+
+.rasmm4 h2{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: capitalize; 
+}
+.rasmm4 p{
+    color: #aeacac;
+    font-weight: 5px;
+}
+.rasmm4 h3{
+    color: white;
+    font-weight: bold;
+}
+.rasmm4 h3:hover{
+    cursor: pointer;
+    color: rgb(31, 232, 31);
+}
+
+.text1{
+    margin: 80px;
+    margin-top: 700px;
+}
+.text2{
+    margin: 80px;
+    margin-top: 700px;
+}.text3{
+    margin: 80px;
+    margin-top: 700px;
+}.text4{
+    margin: 80px;
+    margin-top: 700px;
+}
+/* . */
+
+
+/* to'rtinchi qism */
+
+
+
+
+.tortt{
+    height: 1400px;
+    background-color: #1C2A39;
+    position: relative;
+    bottom: 240px;
+}
+.tortt h1{
+    text-align: center;
+    color: #A27758;
+    font-weight: bold;
+}
+.py p{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: italic;
+}
+
+.py{
+    position: relative;
+    top: 100px;
+}
+.foto1{
+    display: flex;
+    justify-content: space-around;
+}
+.fotoo{
+       position: relative;
+    left: 10px;
+    top: 100px;
+}
+.yozuv1{
+       position: relative;
+    right: 170px;
+    top: 170px;
+}
+.yozuv1 p{
+    color: #FFFFFF;
+    font-family: italic;
+    text-transform: capitalize;
+}
+
+.foto2{
+    display: flex;
+    justify-content: space-around;
+}
+.foto2 button{
+    border: solid 2px ;
+    position: relative;
+    z-index: 3;
+    right: 12px;
+    background-color: transparent;
+    color: white;
+    border-color: #333333;
+    padding: 10px 20px;
+   
+}
+.foto2 button:hover{
+    cursor: pointer;
+    background-color: #A27758;
+    color: white;
+     box-shadow: 1px 1px 1px 2px #A27758;
+     border-color: #A27758;
+
+}
+.fotoo2{
+    position: relative;
+    right: 60px;
+    bottom: 140px;
+    z-index: 2;
+}
+.yozuv2{
+    position: relative;
+    top: 120px;
+}
+.yozuv2 p{
+    color: white;
+    font-family: italic;
+    text-transform: capitalize;
+}
+.foto3{
+    position: relative;
+    padding: 300px;
+    bottom: 520px;
+}
+/* . */
+
+
+/* beshinchi qism */
+.besh{
+    position: relative;
+    bottom: 200px;
+}
+.besh p{
+    color: #333333;
+    position: relative;
+    left: 100px;
+    top: 30px;
+}
+.hb h1{
+    position: relative;
+
+    left: 100px;
+}
+.hb{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.hb button{
+    margin: 50px;
+    position: relative;
+    right: 55px;
+}
+.besh a{
+    text-decoration: none;
+    position: relative;
+    z-index: 4;
+}
+.besh a:hover{
+    color: red;
+}
+.rasmla{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+h5{
+    color: #333333;
+
+}
+
+
+.oxiri{
+    padding: 100px;
+    position: relative;
+    bottom: 40px;
+    
+}
+.kones{
+    display: flex;
+    justify-content: space-around;   
+}
+.oxiri h1{
+    text-transform: capitalize;
+    color: #1C2A39;
+}
+.oxir{
+    display: flex;
+    justify-content: space-around;
+    gap: 110px;
+    
+}
+
+.oxir p{
+    text-transform: capitalize;
+    color: #1C2A39;
+    padding: 130px;
+    text-decoration: underline;
+    
+}
+.oxir h4{
+    padding: 150px;
+    text-decoration: underline;
+}
+
+/* . */
+
+
+/* oltinchi qism */
+footer{
+    height: 500px;
+    width: 1520px;
+    background-color: #1C2A39;
+    position: relative;
+    bottom: 250px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+    
+}
+
+h6{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+h6:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.nav p{
+    color: #8a8787;
+}
+
+.menu{
+    position: relative;
+    top: 30px;
+}
+.contact{
+    position: relative;
+    top: 30px;
+}
+
+.logola{
+    position: relative;
+    top: 10px;
+}
+.line{
+    width: 1250px;
+    position: relative;
+    left: 160px;
+}
+.tugadi{
+    display: flex;
+    justify-content: space-around;
+}
+
+span{
+    color: #969191;
+    position: relative;
+    right: 10px;
+    top: 20px;
+}
+.tugadi p{
+    color: #969191;
+    padding: 5px;
+}
+/* .tugadi */
+
+/* . */
+
